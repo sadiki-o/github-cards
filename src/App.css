@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+body{
+  background-color: antiquewhite;
+}
+.card-image{
+  height: 100px;
+  width: 100px;
+}
+.cards-list{
+  width:40%;
+  display:flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card{
+  margin: 10px 25px;
+  height: 150px;
+}
+p{
+  margin: 0;
+}
+input{
+  font-size: 20px;
+  padding: 10px;
+  width: 25vw;
+  height: 25px;
+  border: 5px solid rgb(167, 43, 125);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  outline: none;
+}
+input:hover{
+  border-color: rgb(214, 122, 194);
+}
+.sub{
+  height: 35px;
+  width: 90px; 
+  background-color: rgb(201, 177, 223);
+  font-size: 20px;
+  font-family:monospace;
+  border: none;
+  margin-bottom: 20px;
+}
+.sub:active, .sub:hover{
+  background-color: rgb(143, 156, 231);
+}
+.delete{
+  width: 100px;
+  background-color: red;
+  height: 25px;
+  border: none;
+  color: rgb(255, 255, 255);
+}
